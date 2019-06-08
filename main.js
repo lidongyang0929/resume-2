@@ -1,12 +1,11 @@
-var result = `/*面试官你好，我是xxx
-*我将以动画的形式介绍我自己
-*只用文字介绍太单调了
-*我就用代码来介绍吧
-*首先准备一些样式*/
+var result = `/*
+* HR您好，我是李冬阳
+* 只用文字介绍太单调了
+* 我就用代码来介绍吧
+* 首先准备一些样式*/
 *{transition: all 1s;}
 html{
     background:rgb(222,222,222);
-    font-size: 16px;
 }
 #code{
     border: 1px solid grey;
@@ -40,33 +39,30 @@ var result2 = `
     width: 50%;
     height: 100%;
     background: #ddd;
-    padding: 16px;
   }
   #paper > .content{
     background: white;
     width: 100%;height: 100%;
+    color:#DD4A68;
   }
   
   `
  var result3 = `
  # 自我介绍
-我叫 XXX
-1990 年 1 月出生
-XXX 学校毕业
-学习前端半年
+我叫 李冬阳
+1996 年 10 月出生
+毕业于北京语言大学计算机专业
 希望应聘前端开发岗位
 # 技能介绍
-熟悉 JavaScript CSS
-# 项目介绍
-1. XXX 轮播
-2. XXX 简历
-3. XXX 画板
-# 联系方式
-- QQ xxxxxxxx
-- Email xxxxxxxx
-- 手机 xxxxxxx
- `
+HTML5 CSS3 原生JS
+VUE全家桶
+小程序开发
 
+# 联系方式
+- 手机 15650785172
+- 微信 lidongyang--
+
+ `
 
 writeCSS('',result,()=>{
     createPaper(()=>{
