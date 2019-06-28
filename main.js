@@ -57,6 +57,7 @@ var result2 = `
 HTML5 CSS3 原生JS
 VUE全家桶
 小程序开发
+Nodejs以及Express框架
 
 # 联系方式
 - 手机 15650785172
